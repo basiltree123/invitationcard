@@ -1,3 +1,63 @@
-h1 {
-  color: aqua;
+* {
+  word-break: keep-all;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: -apple-system-body;
+  font-family: -apple-system;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+/*text*/
+h1,
+h2 {
+  margin: 11px;
+}
+
+.maintxt {
+  padding: 5px;
+  line-height: 150%;
+}
+
+/*main-body*/
+body {
+  background: #fff;
+  color: #000;
+  text-align: center;
+}
+
+footer {
+  margin: 2rem;
+  color: #8a8a8a;
+}
+
+/*img*/
+img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.imgContainer {
+  position: relative;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 4px;
+  text-align: center;
+}
+
+/*main content*/
+#date {
+  color: lavender;
 }
